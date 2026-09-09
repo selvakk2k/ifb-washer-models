@@ -18,13 +18,15 @@ from .const import (
     ModelInfo,
     ProgramCapabilities,
 )
-from .lookup import WasherModelLookup
+from .lookup import WasherModelLookup, get_lookup
 
 __version__ = "0.1.0"
 
 __all__ = [
     "WasherModelLookup",
+    "get_lookup",
     "ModelInfo",
+
     "ManualInfo",
     "ProgramCapabilities",
     "ApplianceArchetype",

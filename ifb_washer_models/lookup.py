@@ -21,6 +21,17 @@ def _normalize_name(name: str) -> str:
     return name
 
 
+_GLOBAL_LOOKUP: WasherModelLookup | None = None
+
+
+def get_lookup() -> WasherModelLookup:
+    """Get or create singleton WasherModelLookup instance."""
+    global _GLOBAL_LOOKUP
+    if _GLOBAL_LOOKUP is None:
+        _GLOBAL_LOOKUP = WasherModelLookup()
+    return _GLOBAL_LOOKUP
+
+
 class WasherModelLookup:
     """Lookup engine for IFB smart washing machines and washer-dryers."""
 
@@ -35,6 +46,7 @@ class WasherModelLookup:
         self._special_features: list[dict[str, Any]] = []
         self._archetypes: dict[str, Any] = {}
         self._load_data()
+
 
     def _load_data(self) -> None:
         """Load JSON datasets into indexed memory."""
