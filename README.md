@@ -19,6 +19,7 @@ A unified hardware capability database, model lookup engine, and wash guide refe
 * [The Four Hardware Archetypes](#the-four-hardware-archetypes)
 * [Hardware Capability Gating Rules](#hardware-capability-gating-rules)
 * [Database Summary](#database-summary)
+* [My Python Libraries](#my-python-libraries)
 * [Credits & License](#credits--license)
 
 ---
@@ -108,6 +109,16 @@ The database enforces physical MCU limits derived from official factory manuals 
 - **Wash Cycles**: 349 individual program entries.
 - **Gating Rules**: 263 cycle-to-modifier constraint records.
 - **Primary Data Sources**: Official IFB factory user manuals, firmware MCU frame dumps, and empirical local GainSpan telemetry captures.
+
+---
+
+## My Python Libraries
+
+| Library | PyPI Package | Description | Status |
+| :--- | :--- | :--- | :--- |
+| [Panasonic AC Models](https://github.com/selvakk2k/panasonic-ac-models) | `panasonic-ac-models` | Hardware profiles, capability lookup & IR protocol generator for Indian Panasonic ACs | `Stable` |
+| [IFB Washer Models](https://github.com/selvakk2k/ifb-washer-models) | `ifb-washer-models` | Unified hardware database, model lookup & cycle capability gating for IFB smart washers | `Stable` |
+| [MirAIe AC API Client](https://github.com/selvakk2k/miraie-ac-in) | `miraie-ac-in` | Async MQTT & REST API client for Panasonic MirAIe-connected Air Conditioners | `Stable` |
 
 ---
 
