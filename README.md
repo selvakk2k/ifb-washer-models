@@ -12,15 +12,14 @@ A unified hardware capability database, model lookup engine, and wash guide refe
 ---
 
 ## Table of Contents
-
-1. [Installation](#installation)
-2. [Model Capability Database & Lookup Engine](#model-capability-database--lookup-engine)
-   - [Python Backend Usage](#python-backend-usage)
-   - [Offline Bundled Data](#offline-bundled-data)
-3. [The Four Hardware Archetypes](#the-four-hardware-archetypes)
-4. [Hardware Capability Gating Rules](#hardware-capability-gating-rules)
-5. [Database Summary](#database-summary)
-6. [Credits & License](#credits--license)
+* [Installation](#installation)
+* [Model Capability Database & Lookup Engine](#model-capability-database--lookup-engine)
+  * [Python Backend Usage](#python-backend-usage)
+  * [Offline Bundled Data](#offline-bundled-data)
+* [The Four Hardware Archetypes](#the-four-hardware-archetypes)
+* [Hardware Capability Gating Rules](#hardware-capability-gating-rules)
+* [Database Summary](#database-summary)
+* [Credits & License](#credits--license)
 
 ---
 
