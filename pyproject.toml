@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ifb-washer-models"
-version = "0.1.0"
+version = "1.0.1"
 description = "Hardware profiles, capability gating rules, and model database for IFB smart washing machines and washer-dryers (Indian Market)."
 readme = "README.md"
 license = { text = "MIT" }
@@ -20,6 +20,12 @@ keywords = [
     "hardware-database",
     "smart-appliances"
 ]
+
+[project.urls]
+Homepage = "https://github.com/selvakk2k/ifb-washer-models"
+Documentation = "https://github.com/selvakk2k/ifb-washer-models#readme"
+Repository = "https://github.com/selvakk2k/ifb-washer-models.git"
+Issues = "https://github.com/selvakk2k/ifb-washer-models/issues"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
