@@ -21,11 +21,6 @@ keywords = [
     "smart-appliances"
 ]
 
-[project.urls]
-Homepage = "https://github.com/selvakk2k/ifb-washer-models"
-Documentation = "https://github.com/selvakk2k/ifb-washer-models#readme"
-Repository = "https://github.com/selvakk2k/ifb-washer-models.git"
-Issues = "https://github.com/selvakk2k/ifb-washer-models/issues"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -38,6 +33,12 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/selvakk2k/ifb-washer-models"
+Documentation = "https://github.com/selvakk2k/ifb-washer-models#readme"
+Repository = "https://github.com/selvakk2k/ifb-washer-models.git"
+Issues = "https://github.com/selvakk2k/ifb-washer-models/issues"
 
 [project.optional-dependencies]
 dev = [
