@@ -1,8 +1,10 @@
 # IFB Washer Hardware Profiles & Wash Guide (`ifb-washer-models`)
 
-[![Version](https://img.shields.io/github/v/release/selvakk2k/ifb-washer-models?style=flat-square)](https://github.com/selvakk2k/ifb-washer-models/releases)
-[![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity%20%7C%20Claude-blueviolet?style=flat-square&logo=google)](https://github.com/selvakk2k)
-[![AI Attribution](https://img.shields.io/badge/AI%20Attribution-AIA%20PAI%20Nc%20Hin-orange?style=flat-square)](https://aiattribution.github.io/interpret-attribution)
+<p align="center">
+  <a href="https://github.com/selvakk2k/ifb-washer-models/releases"><img src="https://img.shields.io/github/v/release/selvakk2k/ifb-washer-models?style=flat-square" alt="Version"></a>
+  <a href="https://github.com/selvakk2k"><img src="https://img.shields.io/badge/AI%20Assisted-Antigravity%20%7C%20Claude%20%7C%20CodeRabbit-blueviolet?style=flat-square" alt="AI-Assisted"></a>
+  <a href="https://aiattribution.github.io/interpret-attribution"><img src="https://img.shields.io/badge/AI%20Attribution-AIA%20PAI%20Nc%20Hin-orange?style=flat-square" alt="AI Attribution"></a>
+</p>
 
 > [!NOTE]
 > **Regional Scope**: This database tracks IFB smart washing machines and washer-dryers sold in the **Indian Market** (Wi-Fi enabled and front/top load models).
